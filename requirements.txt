@@ -1,0 +1,10 @@
+google-api-python-client==2.98.0   # For googleapiclient
+google-auth==2.23.0                # For google.oauth2
+google-auth-oauthlib==1.0.0        # For google_auth_oauthlib
+pandas                     # For data manipulation
+matplotlib                  # For plotting
+numpy                      # For numerical operations
+seaborn==0.12.2                    # For data visualization
+scikit-learn==1.3.1                # For ML preprocessing and model selection
+xgboost==1.7.6                     # For XGBClassifier
+tensorflow
