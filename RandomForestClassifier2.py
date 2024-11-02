@@ -91,7 +91,7 @@ class ModelTrainer(BaseEstimator, TransformerMixin):
             min_samples_leaf=min_samples_leaf,
             criterion=criterion,
             bootstrap=bootstrap
-        ) if model == 'RandomForest'
+        ) 
 
     def fit(self, X, y):
         self.model.fit(X, y)
